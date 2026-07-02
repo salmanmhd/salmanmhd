@@ -1,0 +1,57 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="900" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- background -->
+    <rect width="900" height="220" fill="#0d1117"/>
+
+    <!-- title bar -->
+    <rect width="900" height="34" fill="#161b22"/>
+    <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+    <circle cx="44" cy="17" r="6" fill="#ffbd2e"/>
+    <circle cx="66" cy="17" r="6" fill="#27c93f"/>
+    <text x="450" y="22" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#8b949e">salman@dev: ~/portfolio — zsh</text>
+
+    <!-- terminal body -->
+    <text x="30" y="70" font-family="SFMono-Regular, Consolas, monospace" font-size="17" fill="#27c93f">salman@dev</text>
+    <text x="140" y="70" font-family="SFMono-Regular, Consolas, monospace" font-size="17" fill="#8b949e">:~$ whoami</text>
+
+    <text x="30" y="100" font-family="SFMono-Regular, Consolas, monospace" font-size="17" fill="#c9d1d9">
+      <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.2s" fill="freeze"/>
+      &gt; Md Salman — Software Developer, full-stack &amp; systems
+    </text>
+
+    <text x="30" y="132" font-family="SFMono-Regular, Consolas, monospace" font-size="17" fill="#27c93f" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.2s" fill="freeze"/>
+      salman@dev</text>
+    <text x="140" y="132" font-family="SFMono-Regular, Consolas, monospace" font-size="17" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.2s" fill="freeze"/>
+      :~$ cat mission.txt</text>
+
+    <text x="30" y="164" font-family="SFMono-Regular, Consolas, monospace" font-size="17" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.2s" fill="freeze"/>
+      &gt; Building Perbudge &amp; Stealth Note · leveling up System Design
+    </text>
+
+    <!-- blinking cursor -->
+    <rect x="30" y="182" width="10" height="18" fill="#58a6ff" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0" keyTimes="0;0.35;0.4;0.5;0.6;0.7;0.8;0.9;0.95;1" begin="3.4s" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- scanline sweep -->
+    <rect x="0" y="-60" width="900" height="60" fill="url(#scan)">
+      <animate attributeName="y" from="-60" to="220" dur="5s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="1" y="1" width="898" height="218" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+</svg>
