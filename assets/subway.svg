@@ -1,0 +1,80 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="mapframe">
+      <rect x="0" y="0" width="900" height="420" rx="14"/>
+    </clipPath>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd33d" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffd33d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#mapframe)">
+    <rect width="900" height="420" fill="#0d1117"/>
+    <text x="450" y="34" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="14" fill="#8b949e" letter-spacing="2">MY STACK, MAPPED LIKE A TRANSIT LINE</text>
+
+    <!-- legend -->
+    <circle cx="70" cy="60" r="5" fill="#58a6ff"/>
+    <text x="82" y="65" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#c9d1d9">Frontend Line</text>
+    <circle cx="230" cy="60" r="5" fill="#3fb950"/>
+    <text x="242" y="65" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#c9d1d9">Backend Line</text>
+    <circle cx="390" cy="60" r="5" fill="#f0883e"/>
+    <text x="402" y="65" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#c9d1d9">Systems Line</text>
+
+    <!-- track paths -->
+    <path d="M90,140 L540,140 C650,140 650,230 760,230" fill="none" stroke="#58a6ff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M90,340 L390,340 C550,340 550,230 760,230" fill="none" stroke="#f0883e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M90,230 L760,230" fill="none" stroke="#3fb950" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- frontend stations -->
+    <g font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#c9d1d9">
+      <circle cx="90" cy="140" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/>
+      <text x="90" y="118" text-anchor="middle">JavaScript</text>
+      <circle cx="240" cy="140" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/>
+      <text x="240" y="118" text-anchor="middle">React</text>
+      <circle cx="390" cy="140" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/>
+      <text x="390" y="118" text-anchor="middle">Next.js</text>
+      <circle cx="540" cy="140" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/>
+      <text x="540" y="118" text-anchor="middle">TypeScript</text>
+    </g>
+
+    <!-- backend (trunk) stations -->
+    <g font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#c9d1d9">
+      <circle cx="90" cy="230" r="7" fill="#0d1117" stroke="#3fb950" stroke-width="4"/>
+      <text x="90" y="255" text-anchor="middle">Node.js</text>
+      <circle cx="240" cy="230" r="7" fill="#0d1117" stroke="#3fb950" stroke-width="4"/>
+      <text x="240" y="255" text-anchor="middle">Express</text>
+      <circle cx="390" cy="230" r="7" fill="#0d1117" stroke="#3fb950" stroke-width="4"/>
+      <text x="390" y="255" text-anchor="middle">.NET / C#</text>
+    </g>
+
+    <!-- systems stations -->
+    <g font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#c9d1d9">
+      <circle cx="90" cy="340" r="7" fill="#0d1117" stroke="#f0883e" stroke-width="4"/>
+      <text x="90" y="365" text-anchor="middle">Docker</text>
+      <circle cx="240" cy="340" r="7" fill="#0d1117" stroke="#f0883e" stroke-width="4"/>
+      <text x="240" y="365" text-anchor="middle">Linux</text>
+      <circle cx="390" cy="340" r="7" fill="#0d1117" stroke="#f0883e" stroke-width="4"/>
+      <text x="390" y="365" text-anchor="middle">Databases</text>
+    </g>
+
+    <!-- terminus -->
+    <circle cx="760" cy="230" r="26" fill="url(#glow)">
+      <animate attributeName="r" values="22;30;22" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="230" r="11" fill="#ffd33d" stroke="#0d1117" stroke-width="3"/>
+    <text x="760" y="185" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="14" font-weight="bold" fill="#ffd33d">SYSTEM DESIGN</text>
+    <text x="760" y="270" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite"/>
+      ▸ now boarding
+    </text>
+
+    <!-- animated train riding the trunk line -->
+    <circle r="6" fill="#f0f6fc">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M90,230 L760,230"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="1" y="1" width="898" height="418" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+</svg>

@@ -12,24 +12,13 @@
 
 <br/>
 
-```yaml
-role:      Software Developer @ Jaina India Pvt Ltd
-building:
-  - Perbudge     # personal finance tracking platform
-  - Stealth Note # privacy-first note app
-leveling_up:
-  - System Design
-  - Advanced DSA
-open_to:
-  - full-stack collaborations
-  - fintech products
-  - open-source contributions
-fun_fact: >
-  mechanical keyboard tinkerer · tech-meetup regular ·
-  reads biographies and philosophy when not shipping code
-```
+<div align="center">
+<img src="./assets/subway.svg" width="100%" alt="skill journey mapped as a subway line" />
+</div>
 
-<br/>
+<sub>Three lines, one interchange. Frontend and Systems both feed into the Backend trunk — that's deliberate, that's roughly how the work actually happens.</sub>
+
+<br/><br/>
 
 ### ⚡ Skill Signal
 
@@ -44,86 +33,49 @@ System Design (leveling up)  ████████████░░░░░
 
 <br/>
 
-### 🗺️ Tech Radar
-
-<table align="center">
-<tr>
-<td valign="top" width="25%">
-
-**Frontend**
-- Next.js
-- React
-- Tailwind CSS
-- TypeScript
-
-</td>
-<td valign="top" width="25%">
-
-**Backend**
-- Node.js
-- Express
-- .NET / C#
-- REST APIs
-
-</td>
-<td valign="top" width="25%">
-
-**Data**
-- MongoDB
-- MySQL
-
-</td>
-<td valign="top" width="25%">
-
-**Infra**
-- Docker
-- Linux
-- Git
-- Postman
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="./assets/cassette.svg" width="100%" alt="off duty — what I actually do when I'm not shipping code" />
+</div>
 
 <br/>
 
-### 🐍 Contribution Snake
+### 🐍 Live Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salmanmhd/salmanmhd/output/github-contribution-grid-snake-dark.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/salmanmhd/salmanmhd/output/github-contribution-grid-snake.svg" />
 </picture>
 
+<br/><br/>
+
+<details>
+<summary>📊 the standard stats block, if you're into that</summary>
 <br/>
 
 <div align="center">
-
 <img src="https://github-readme-stats.vercel.app/api?username=salmanmhd&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" alt="stats"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salmanmhd&layout=compact&theme=github_dark&hide_border=true" width="42%" alt="top langs"/>
-
+<br/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=salmanmhd&theme=github-dark-blue&hide_border=true" alt="streak"/>
-
 </div>
 
-<br/>
+</details>
 
 <details>
-<summary>⌨️  press this — mechanical keyboard easter egg</summary>
+<summary>🖥️ neofetch --about-me</summary>
 <br/>
 
 ```
-      ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
-      │Esc│ F1│ F2│ F3│ F4│ F5│ F6│ F7│ F8│ F9│F10│F11│F12│  ⌦    │
-      ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴───────┤
-      │  `  │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │  ⌫  │
-      ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┤
-      │ Tab  │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \  │
-      ├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴──────┤
-      │ Caps    │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │Enter │
-      ├─────────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬────────┤
-      │  Shift    │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ Shift  │
-      └───────────┴───┴───┴───┴───┴───┴───┴───┴───┴───┴──────────┘
-                     ~ thocc responsibly ~
+        salman@dev
+        ──────────────────────────────
+        OS:          Human, India Edition
+        Uptime:      since forever, still compiling
+        Shell:       zsh, occasional chaos
+        Editor:      anything with vim keybindings
+        Languages:   JS/TS, C#, a bit of everything
+        Currently:   ./system-design.exe --verbose
+        Peripherals: one too many mechanical keyboards
+        Status:      compiling thoughts into code, most nights
 ```
 
 </details>
@@ -131,5 +83,5 @@ System Design (leveling up)  ████████████░░░░░
 <br/>
 
 <div align="center">
-<sub>compiled with ☕ and a few too many custom keycaps · reach out anytime</sub>
+<sub>if a line on the map above ever derails, that's usually where the interesting bugs live</sub>
 </div>
